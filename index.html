@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIMULADOR INTERACTIVO</title>
-    <script src="desafio2.js"></script>
+    <link rel="stylesheet" href="desafio6login.css">
+    
+    
+    <title>DESAFIO 6 LOGIN</title>
 </head>
 <body>
-    
+    <header>
+        <div class="center">
+            <button id="show-login">LOGIN</button>
+        </div>
+        <div class="popup">
+            <div class="close-btn">x</div>
+            <div class="form">
+                <h2>Acceso</h2>
+                <div class="form-element">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Ingresar email">
+            </div>
+            <div class="form-element">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="Ingresar contraseña">
+            </div>
+            <div class="form-element">
+                <input type="checkbox" id="remember-me" >
+                <label for="remember-me">Recordar</label>
+            </div>
+            <div class="form-element">
+                <button>Registrarse</button>
+                <div class="form-element">
+                <a href="#">Olvidaste tu contraseña?</a> 
+                </div>
+        </div>
+        </div>
+
+    </header>
+    <script src="desafio6login.js"></script>
 </body>
 </html>
